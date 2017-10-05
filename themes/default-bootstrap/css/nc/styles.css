@@ -511,12 +511,17 @@ header .nav {
     font-size: 20px; }
 
   #block_top_menu {
-    padding-top: 0; }
+    padding-top: 0;
+    margin-bottom: 10px; }
     #block_top_menu .cat-title {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 7px;
+      padding-bottom: 7px;
       padding-left: 18px;
-      padding-right: 18px; }
+      padding-right: 18px;
+      font-size: 16px; }
+      #block_top_menu .cat-title:after {
+        font-size: 20px;
+        top: 10px; }
     #block_top_menu ul.sf-menu li a {
       padding-top: 10px;
       padding-bottom: 10px;
