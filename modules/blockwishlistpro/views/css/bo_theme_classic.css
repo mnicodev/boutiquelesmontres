@@ -1,0 +1,31 @@
+label {float:none !important}
+label span.label-tooltip, .thClassic label {
+    font-weight:normal !important;
+    vertical-align: top !important
+}
+label.control-label {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top !important;
+    text-align: right
+}
+.panel-heading.thClassic {margin-top:18px}
+.form-group .thClassic {
+    display: inline-block;
+    width: 25%;
+    text-align: center
+}
+.form-group .thClassic.txtalgnright{
+    text-align: right !important
+}
+.panel-footer  {
+    margin-top: 6px !important
+}
+.thClassic .radio .t {
+    font-size: 100%;
+}
+.thClassic .radio {
+    margin-bottom: 4px !important
+}
+#activation h2 {font-size: 1.25em}
+fieldset img {vertical-align: middle !important}

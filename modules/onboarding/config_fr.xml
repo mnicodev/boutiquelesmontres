@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>onboarding</name>
+	<displayName><![CDATA[Premiers pas]]></displayName>
+	<version><![CDATA[1.0.2]]></version>
+	<description><![CDATA[Le module &quot;Premiers pas&quot; accueille les nouveaux utilisateurs dans leur back-office PrestaShop : gr&acirc;ce &agrave; une interface ludique, il montre &agrave; l&#039;utilisateur comment lancer sa boutique en quelques &eacute;tapes faciles.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

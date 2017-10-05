@@ -1,0 +1,357 @@
+Release Notes for Wishlist Pro - version for Prestashop 1.5x/1.6x
+--------------------------------
+####################################
+# v2.8.1 - (2017-01)
+####################################
+Improved/changed features:
+* search for a list: prevent all the lists to be displayed when typing in a space in the search field
+
+Fixed bugs:
+*  Wrong installation for some servers: BO/link to the list with ['token' =>... ] replaced by array('token' =>...)
+
+####################################
+# v2.7.1 - (2016-11)
+####################################
+Improved/changed features:
+
+Fixed bugs:
+*  PHP compliancy: array parameter passed into $link->getModuleLink / blockwishlistpro.php line 1030
+
+####################################
+# v2.7.1 - (2016-11)
+####################################
+Improved/changed features:
+* search for a list: prevent all the lists to be displayed when typing in '%'
+
+Fixed bugs:
+*  Back office, in customer view/link to the list as a donator: new method to get the right url in case of multishop (gettoken method deprecated)
+
+####################################
+# v2.6.3 - (2016-09)
+####################################
+Improved/changed features:
+* Front end: keep in memory the grid/list mode on donators'page and managmt page, and for the first visit take into account the grid/list mode of the category page
+
+Fixed bugs:
+* Front end:on donators'page and managmt page, 'undefined' displayed everywhere due to interference with category page/global.js grid/list mode. Depends on the theme in case of 'product_list' class added to <ul> in product-list.tpl
+
+####################################
+# v2.6.2 - (2016-08)
+####################################
+Improved/changed features:
+* Front end: when offering a gift from list page, taking into account the following blockcart module context: blockcart  enabled but unhooked from header hook
+
+Fixed bugs:
+* Front end:on donator's page, <p> around the short description removed
+
+####################################
+# v2.6.1 - (2016-08)
+####################################
+Improved/changed features:
+* Security: BO view orders and lists controller
+orderswishlists and not just a php file (idem listswishlists)
+* Display improvement (donator and manage page), more user-friendly layout (view.tpl, managewishlistpro.tpl, wishlist_dd.css, bo_dd.css)
+* Offer a gift: check if blockcart module is enable for the current device and not at global level anymore - prestashop 1.6 concerned
+Changes details:
+Wishlistlistpro.php f° getModuleDeviceEnable(), view.php to get the result and transfer to view.tpl, view16/15.tpl new tests with  !$enable_on_current_device, new parameter of WishlistBuyProductpro: (...,"{$enable_on_current_device|...),
+add param to js in view16.tpl {addJsDef enable_on_current_device=$enable_on_current_device|escape:'htmlall':'UTF-8'}
+or in view15.tpl enable_on_current_device = {$enable_on_current_device|escape:'htmlall':'UTF-8'},
+ajax-wishlistpro.js
+new parameter in WishlistBuyProductpro enable_on_current_device and new test  if (... && enable_on_current_device)
+* Minimal qty check when adding a product to a list (WishListpro.php, managewishlistdetailDD.php, ajax-wishlistpro.js, cart.php)
+* Authorizeaim module compat: css label form rule in case of authorizeaim module enable (bo_dd.css)
+
+Fixed bugs:
+* Back office cockpit: lists of orders or lists of giftlists, cross domain origin issues in case of SSL, Front office management: some icons not loaded, cross domain origin issues in case of SSL
+* Front office list page: view page grid mode, product image overflows the container (view.tpl) and manage my lists page (managewishlistpro.tpl)
+* Back office: in case of multishop, doubloon in attribute small (f° Wishlistpro::getProductByIdCustomer)
+* Back office / cockpit orders or lists: Date sorting false if date format like dd/mm/yyy (blockgiftlistpro.php
+- f° _displayFormView(), new function getDateFormatDataTable() - bo.js f° form_lists_select -> f° ajaxListsWishlists: new parameter date_format - bo.js f° form_orders_select -> f° ajaxOrdersWishlists: new parameter date_format)
+
+####################################
+# v2.2.4 - (2016-06)
+####################################
+Improved/changed features:
+* Back office cockpit: loading icon when clicking "results" and waiting for lists of orders (blockwishlistpro.php, f° _displayFormView, bo.js f°ajaxListsWishlists)
+
+Fixed bugs:
+* Installation: new test to complete installation in case of no default left/right column defined by the theme (blockwishlistpro.php, f° install)
+* Installation: recovery data from Wishlistpro module : on some servers recovery broken due to wrong return of "insert into" (blockwishlistpro.php, f° install)
+
+####################################
+# v2.1.4 - (2016-02-18)
+####################################
+Improved/changed features :
+* Front office and back office
+  - css definitions of icons (icon-plus-square, icon-envelope, icon-minus-square, icon-trash-o) in case your theme doesn't feature them (wishlist_dd.css)
+Fixed bugs:
+* Front office / list's owner page
+  - "Send the wishlist address" button non efficient with theme Modern1 (managewishlistpro.tpl)
+  - Preview email : path of logo (find_out_email1.php)
+* Front office / donator's page
+  - products in list but removed from database afterwards  are displayed on this page (view.php)
+
+####################################
+# v2.0.3 - (2016-02-05)
+####################################
+Improved/changed features :
+* Back office
+Cockpit Orders View : link to the donator and to the creator's customers back office pages when clicking their name (orders_wishlists.php, blockwishlistpro.php, WishListpro.php f° getOrdersWithWishlist, bo.js f° form_orders_select and f° ajaxOrdersWishlists)
+
+Fixed bugs:
+* Front office / donator's page, creator's page ; Back office / Cockpit Client View
+  - products not displayed or with wrong warning message
+
+####################################
+# v2.0.2 - (2016-02-02)
+####################################
+Improved/changed features :
+* Documentation
+New code example to display search block on page
+
+####################################
+# v2.0.1 - (2016-01-08)
+####################################
+Improved/changed features :
+* Back office
+  - list of customers in cockpit sorted by customer's names
+  - warning message if no gifts have been offered when clicking "pdf" button (blockwishlistpro.php)
+  - in cockpit/customer view : page doesn't reload after selecting the client (blockwishlistpro.php)
+  - Responsive compliance
+  - Hide/display settings in back office (blockwishlistpro.php, bo.js)
+  - improved warning message if a product has been cancelled after it had been added to a list (also if the added combination has been cancelled or  the product was without combination when added to a list and combinations have been added since)
+
+* Front office
+  - Grid or list display on creator management page (managewishlistpro.tpl, ajax-wishlistpro.js, wishlist_dd.css)
+  - Grid or list display on donator management page (view.tpl, ajax-wishlistpro.js, wishlist_dd.css)
+  - Responsive compliance - select classic or responsive bootstrap parameter in back office (blockwishlistpro.php / tpl + blockwishlist-extra blockwishlist-home.tpl, view.php / tpl)
+  - Responsive mood : + button on creator's list page to expand the block downwards (files changed:blockwishlist.tpl)
+  - Responsive mood : + button on the right or left block to expand or reduce the block (files changed:blockwishlist.tpl)
+  - Left or right column hook : according to the theme preference (new test in f° install, blockwishlistpro.php)
+  - home hook available to the search block set up by bo parameter (f° install, blockwishlistpro.php)
+  - No external links to guides anymore (Prestashop rule)(file changed: mywishlist.tpl)
+  - Bread crumb on my list page : to take into account 1.6 Theme to avoid double breadcrumbs (file changed: mywishlist.tpl, mywishlist.php)
+  - improved warning message if a product has been cancelled after it had been added to a list (also if the added combination has been cancelled or  the product was without combination when added to a list and combinations have been added since) - Owner's management page
+  - When a product/combination has been added to the list but meanwhile combinations have been removed : no more display on donator's page
+
+* Process
+  - Catalog mode improvment (files changed: blockwishlistpro/js/ajax-wishlistpro.js, new test in WishlistCartpro function - blockwishlistpro/views/templates/front/view.tpl, new test to display "offer" button if catalog mode deactivated)
+  - Multiple lists in the same cart forbidden (Wishlistpro.php new f° getWishlistByCartId, test view.php, display view.tpl, action to rmve cart view.tpl, form in view.php remove form success message f° WishlistBuyProductpro ajaxwishlistpro.js)
+
+------------
+Fixed bugs :
+* Extension of pdf sent by email, only .pdf (file changed: blockwishlistpro.php, line 209 $name_extension)
+* Only at first installation : warning message about wishlist object, not a fatal error anymore (file changed: blockwishlistpro.php.php, line 1625)
+* Data recovery improvment
+* Blockcart activated and ajax function deactivated : offer the gift button efficient (files changed: blockwishlistpro/js/ajax-wishlistpro.js, new url parameter to cart controller in WishlistBuyProductpro and WishlistAddProductCart functions - blockwishlistpro/views/templates/front/view.tpl, new parameter to send path to cartcontroller)
+* Display error when installing the module (Wishlistpro.php f°getByIdCustomer)
+* In some cases issue when selecting the right list on product page, to add the product to the list (blockwishlist-extra.tpl)
+
+####################################
+# v1.290 - (2014-01-28)
+####################################
+Improved/changed features :
+* New tip included in help guide related to display the wishlistpro block on the left (hook to leftcolumn) provided that the theme displays left column
+* New tip included in help guide related to display the "search for a list" form on page
+* New display of "offer the gift" buttons : more compact
+
+Fixed bugs :
+* Module Back office: in cockpit / list display in case of # lists >50 (file changed: orders_wishlists.php)
+
+####################################
+# v1.289 - (2014-01-02)
+####################################
+Improved/changed features :
+* New tip included in the help guide related to performance settings before installing the module (ccc and cache parameters
+
+Fixed bugs :
+* On donator's page wrong display of "offer the gift" buttons in case of products without description
+
+####################################
+# v1.288 - (2014-11-20)
+####################################
+Improved/changed features :
+* Prestashop cloud compatibility
+
+####################################
+# v1.2861 - (2014-10-22)
+####################################
+Improved/changed features :
+
+Fixed bugs :
+* currency conversion rate in case of multicurrency gifts
+
+####################################
+# v1.286 - (2014-10-20)
+####################################
+(Incl. v1.285 changelog)
+Improved/changed features :
+* enable currency conversion rate in case of multi-currencies shop
+
+Fixed bugs :
+* Back office of the module : in customer view panel, link to the list as a donator
+	-> files changed: gettoken.php, /js/ajax-wishlistpro.js (BoLinkList function, url:path +'gettoken.php')
+
+####################################
+# v1.285 - (2014-07-09)
+####################################
+(Incl. v1.284 changelog)
+Improved/changed features :
+
+Fixed bugs :
+*  "Send the list by e-mail" action as a creator / list management. Mails are sent but the unsuccessful message is displayed
+	-> files changed: sendwishlistpro.php (change in for loop), /js/ajax-wishlistpro.js (WishlistSendpro function, if (data.indexOf('nok') != -1))
+
+
+####################################
+# v1.284 - (2014-06-24)
+####################################
+(Incl. v1.282 changelog)
+Improved/changed features :
+* "add to my list" button : new id for better css layout customization
+	-> file changed: blockwishlist-extra.tpl ([id="add2wl"])
+	-> file changed: blockwishlistpro/views/css/wishlist_dd.css([#add2wl {text-align:center}])
+
+Fixed bugs :
+*  "add to my list" action and ("no right column hook" or "no right column in theme) : add the product to the list
+	-> file changed: blockwishlistpro.php (change in function hookProductActions, new line [$this->hookRightColumn($params);])
+*	my wishlists table (list management, front office) : 2nd click on 'publish' doesn't work with some browsers
+	-> file changed: blockwishlistpro/js/ajax-wishlistpro.js (change in function wishlistpublish)
+*	in case of whole site under HTTPS: cross site domain issue preventing list details from being displayed
+	-> file changed: blockwishlistpro/js/ajax-wishlistpro.js (change in functions using GET -> POST)
+
+
+####################################
+# v1.282 - (2014-02-05)
+####################################
+(Incl. v1.281 changelog)
+Improved/changed features :
+* automatic email sent to the list's owner after each gift: taking into account card payment
+	-> change of hook: ValidateOrder instead of orderConfirmation
+	-> file changed: blockwishlistpro.php (change in function __construct(), new function hookActionValidateOrder(), deleted function hookorderConfirmation()
+	! important ! reinitialize the module to take into account the change
+
+Fixed bugs :
+* in some cases css bug on wishlistpro configuration page (back office)
+	-> file changed: blockwishlistpro.php (change in function _displayFormView, lines 513/514, cancellation of one "/")
+
+####################################
+# v1.281 - (2013-10-09)
+####################################
+Incl. v1.280 changelog
+Improved/changed features :
+* 1.5.5.0 compatibility, displayDate with id_lang parameter deprecated
+* >= 1.5.5.0 : link to mywihslit page in footer/my account section
+
+Fixed bugs :
+* 'my account' link on mywishlist page (my-account.php deprecated)
+
+####################################
+# v1.280 - (2013-08-14)
+####################################
+Incl. v1.2791 changelog
+Improved/changed features :
+* Warning message when installing this version on Prestashop 1.4/1.3. Prevent installation from being carried out.
+
+Fixed bugs :
+* In case of php extension 'php_curl' not activated, an error message (TCPDF unable to get image ...) occurs when creating pdf of a list. New 'width' attribute in <img src=...> in pdfwl-tcpdf.php to fix it.
+
+####################################
+# v1.2791 - ()
+####################################
+
+Improved/changed features :
+* In case of a product without attribute offered in a list, and afterwards an attribute is added to the product : remove the line of the donators page. But always taken into account as a gift offered and warning message in BO and Creator management section.
+
+Fixed bugs :
+* In case of products out of stock on donator page : the settings at level product are taking into account to enable or not the purchase (offer button activated)
+*
+
+####################################
+# v1.279 - (2013-03-27)
+####################################
+
+Improved/changed features :
+* History of products included in lists but removed from database afterwards : on the list page (donator), not displayed - on the management list page (creator), displayed with warning - in BO and on pdf report, displayed with warning. Included in the total of gifts.
+
+Fixed bugs :
+*
+*
+
+####################################
+# v1.278 - ()
+####################################
+
+Improved/changed features :
+* Friendly URL enabled : now compatible with the URL rewriting mode
+
+Fixed bugs :
+* IE 9, broken down template depending on the IE version : new location of JS code to prevent template from being broken down
+*
+
+####################################
+# v1.277 - (2013-02-12)
+####################################
+
+Improved/changed features :
+* SSL : when SSL activated it is now possible to manage lists
+
+Fixed bugs :
+* section offered gifts (FO) : sort by date desc taking into account the year
+* notice illegal offset string : code cleaned in function viewDetails_adminOrders
+
+####################################
+# v1.275 - (2013-01-30)
+####################################
+
+Fixed bugs :
+* PDF issue : empty pdf of the gifts if one product name contains the '€' sign
+
+
+####################################
+# v1.274 - (2013-01-28)
+####################################
+
+Improved/changed features : 1.5.3.1 compatibility
+* Back office : from Prestashop 1.5.3.1  : load js and css of the module to use the right css rules and the functionnality of the orders view panel
+
+
+####################################
+# v1.273 - (2012-12-19)
+####################################
+
+Improved/changed features :
+* Multistore : take into account quantity in stock in case of multistore configuration (donator view on list's page)
+
+Fixed bugs :
+* Images : for Prestashop 1.5.0.17 only : take into account the images legacy system to display the right image on donator and creator pages
+* URL rewriting : links to list's page (donator view) changed to avoid "not found page"
+
+
+####################################
+# v1.272 - (2012-11-23)
+####################################
+
+Improved/changed features :
+* Mixed carts : take into account products of the list but ordered via the product file and not via the list page
+* Data recovery :  from native module (blockwishlist) in case of blockwishlist installed and no data inside: test changed (new else) to display a warning sentence
+* Images : take into account the images legacy system to display the right image on donator and creator pages
+* Language : DE (German) included
+
+Fixed bugs :
+
+
+
+####################################
+# v1.27 - (2012-11-16)
+####################################
+
+Improved/changed features :
+
++ Compatibility to Prestashop 1.5 (1.5x compatible and not 1.4)
+
+
+Fixed bugs :
+
+
+

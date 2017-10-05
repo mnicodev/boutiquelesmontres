@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,iCAAkC;EAC9B,UAAU,EAAE,IAAI;EAEhB,uDAAsB;IACpB,UAAU,EAAE,gBAAe;IAC3B,gBAAgB,EAAE,kBAAiB",
+"sources": ["categorie.sass"],
+"names": [],
+"file": "categor.css"
+}

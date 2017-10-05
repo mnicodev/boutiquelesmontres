@@ -1,0 +1,89 @@
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0 15px;
+/*	font-size: 10pt;*/
+	width: 100%;
+	text-align: left;
+	clear:both;
+}
+.tablesorter thead tr {	height:3.6em }
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+/*	font-size: 11pt;*/
+	padding: 4px;
+}
+table.tablesorter thead tr td {
+	background-color: #f6f9f9;
+	border: 1px solid #FFF;
+/*	font-size: 10pt;*/
+	padding: 4px;
+}
+html body table#table1.tablesorter tfoot tr th#pagerOne.pagerOne {background-color:#e6EEEE}
+table.tablesorter tfoot tr th,
+.tablesorter tfoot tr {
+background-color:white;
+height:2em;
+}
+.tablesorter tfoot tr th img {margin:1px 3px 1px 6px}
+input.pagedisplay { border:none; background-color:white; color:#333; width:auto; padding:0 6px 0 6px; text-align:center }
+table.tablesorter thead tr .header {
+	background-image: url(../img/icon/bg.gif);
+	background-repeat: no-repeat;
+    background-position: 100% 90%;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#FaFaFc;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/icon/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/icon/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #d6c9c5;
+}
+
+/*filter*/
+a#cleanfilters {
+display:block;
+}
+a#cleanfilters:hover {
+cursor:pointer
+}
+span#rowcount {
+}
+div#col_width span{
+float:left
+}
+div#col_width span { margin-left:0 }
+div#col_width span#colwidth { margin-left:50%}
+thead tr.filters td select.filter option { font-size:11px}
+thead tr.filters td input.filter, thead tr.filters td select.filter, select.pagesize  {
+/*margin-left:3px;*/
+font-size:11px;
+}
+html body div#col_width a#cleanfilters { text-decoration:underline }
+html body div#col_width a#cleanfilters:hover { text-decoration:none; color:#006666 }
+
+select.pagesize 
+/*resize columns*/
+div#col_width span, div#col_width a , div#col_width a img {
+    border: medium none;
+    float: left;
+    margin-top: 2px;
+    text-decoration: none;
+}
+div#col_width a img { vertical-align:middle }
+div#col_width a img {margin-left:6px }
+div#col_width {margin-left:16px;}

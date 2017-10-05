@@ -1,0 +1,123 @@
+$fond_header: #000000;
+$fond_footer: #1e1e1e;
+
+$fond_search: #000000;
+
+$width_site: 1200px;
+
+$height_slider: 878px;
+
+$header_nav_padding_top: 20px;
+$header_nav_padding_bottom: 20px;
+$footer_block_padding_top: 20px;
+
+$fond_menu: #000000;
+$menu_color_border: #767676;
+$color_border: #ccc;
+$hline_color: #767676;
+$menu_color_link: #ffffff;
+$menu_font_size: 14px;
+$menu_letter_spacing: 0.3em;
+$menu_fond_item_hover: #767676;
+
+$les_entrees_hover_shadow: 0.7;
+
+$footer_menu_color_link: #eeeeee;
+
+$height_entree: 647px;
+
+$savoir_faire_h2_color: #000000;
+$savoir_faire_h3_color: #222;
+$savoir_faire_height: 567px;
+$savoir_faire_padding_top: 70px;
+
+
+$selection_color: #000;
+$les_entrees_color_h2: #fff;
+
+$fond_breadcrumb: #DEDEDE;
+
+$color_border_product: #cfcfcf;
+
+$color_background_step_order: #f5f5f5;
+$color_border_step_order: #d1d1d1;
+
+$fond_gris_noir: #2d2d2d;
+
+@mixin flex($direction) {
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: $direction;
+	-webkit-flex-direction: $direction;
+	-ms-flex-direction: $direction;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+
+}
+
+@mixin padding($top,$bottom,$left,$right) {
+      padding-top: $top;
+      padding-bottom: $bottom;
+      padding-left: $left;
+      padding-right: $right;
+}
+
+@mixin bouton($top,$bottom,$left,$right,$color) {
+	background: $color;
+	@include padding($top,$bottom,$left,$right);
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 0.9em;
+	/*box-shadow: 5px 5px 10px #aaa;*/
+	&:hover {
+		color: #fff;
+	}
+}
+
+@mixin max_content() {
+	width: -moz-max-content;
+   width: -webkit-max-content;
+   width: max-content;
+}
+
+@mixin breadcrumb() {
+	.breadcrumb {
+		padding: 0;
+		background: $fond_breadcrumb;
+		display: block;
+		line-height: 30px;
+		margin-bottom: 0;
+
+		.contain {
+			max-width: $width_site;
+			width: 100%;
+			margin:auto;	
+
+			a {
+				background: none;
+				margin-left: 0;
+				padding-left: 10px;
+			}
+			a:after {
+				border: none;
+				background: none;
+				text-indent: initial;
+				content: "/";
+				transform: none;
+				-webkit-transform: none;
+				-ms-transform: none;
+				top:0;
+				
+
+			}
+			a:before {
+				border: none;
+			}
+		}
+
+	}
+}
+
+
+

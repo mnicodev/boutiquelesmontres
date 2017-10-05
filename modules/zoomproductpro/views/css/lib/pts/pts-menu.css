@@ -1,0 +1,303 @@
+/**
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2015 PresTeamShop
+ * @license   see file: LICENSE.txt
+ */
+
+.pts-menu {
+    padding: 20px 0 10px 0;
+    background: #FFFFFF;
+    /*margin-top: 2em;*/
+}
+
+.pts-menu ul li {
+  border-bottom: 1px solid #F0F4F7;
+}
+
+.pts-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.pts-menu ul li a {
+  color: #7f8fa1;
+  /*color: #93A3B5;*/
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.pts-menu ul > li > a > i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.pts-menu ul > li > a:hover {
+  background-color: #FAFCFD;
+  color: #5B9BD1;
+}
+
+.pts-menu ul > li.active {
+  border-bottom: none;
+}
+
+.pts-menu > ul > li > div.sub-tabs > ul > li.active > a,
+.pts-menu ul > li.active a
+,.pts-menu ul > li.active > .sub-tabs > ul > li.active > a
+{
+  color: #5B9BD1;
+  background-color: #F6F9FB;
+  border-left: 2px solid #5B9BD1;
+  margin-left: -2px;
+}
+
+.pts-menu-xs ul > li.active > .sub-tabs > ul > li > a {
+    color: inherit;
+    background-color: inherit;
+    border-left: inherit;
+}
+
+.pts-menu-xs ul > li.active > .sub-tabs > ul {
+    border: none;
+    padding-left: 40px;
+}
+
+.pts-menu-xs ul > li.active > .sub-tabs {
+    height: auto !important;
+}
+
+.pts-menu-xs ul.sub-tab-list {
+    display: none;
+}
+
+.pts-menu-xs .sub-tabs > ul.sub-tab-list {
+    display: block;
+}
+
+/* Profile Content */
+.pts-content {
+  padding: 20px;
+  background: #FFFFFF;
+  /*min-height: 460px;*/
+}
+
+#content.bootstrap div.pts .panel-heading.main-head,
+.pts .pts-content .panel.pts-panel .panel-heading.main-head {
+    background-color: #F6F9FB;
+}
+
+#content.bootstrap div.pts .panel-heading,
+.pts .pts-content .panel.pts-panel .panel-heading {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    padding: 6px 10px;
+    height: auto !important;
+    line-height: 1.7em !important;
+}
+
+.pts-menu .pts-menu-title a:hover {
+    background-color: #6fd0ff !important;
+}
+.pts-menu .pts-menu-title a {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+.pts-menu .pts-menu-title {
+    margin-left: -2px;
+    border-left: 2px solid #6fd0ff;
+    background-color: #6fd0ff;
+    /*background-color: #64C5F5;*/
+    padding-left: 24px;
+}
+
+.pts-menu > ul > li > div.sub-tabs {
+/*    display: none;
+    overflow: hidden;*/
+}
+
+.pts-menu > ul > li > div.sub-tabs > ul > li:first-child {
+    border-top: 1px solid #f0f4f7;
+}
+
+.pts-menu > ul > li > div.sub-tabs > ul > li > a {
+    padding-left: 40px;
+    background-color: #FFFFFF;
+    color: #7f8fa1;
+}
+
+.pts-menu > ul > li > div.sub-tabs > ul > li.active > a {
+    border-left: 2px solid #98d8ff;
+}
+
+.pts .pts-panel {
+    border-radius: 5px !important;
+    border-top: 1px solid !important;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0 3px #FFFFFF inset !important;
+}
+
+.pts-menu-xs .belt i {
+    cursor: pointer;
+    font-size: 27px;
+    margin: auto;
+    height: 50px;
+    padding: 7px 0;
+}
+
+.pts-menu-xs .belt {
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    z-index: 9010;
+    cursor: pointer;
+    display: flex;
+    vertical-align: middle;
+}
+
+.pts-menu-xs ul li a {
+    color: #647486;
+}
+
+.pts-menu-xs {
+    position: fixed;
+    top: 80px;
+    left: -5px;
+    z-index: 9011;
+
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.pts-menu-xs-container ul {
+    padding: 0;
+    border: 2px solid #dadee1;
+    /*border: 2px solid #f0f4f7;*/
+    background-color: #FDFDFD;
+    /*background-color: rgb(255, 255, 255);*/
+}
+
+.pts-menu-xs-container {
+    width: 100%;
+    /*background-color: rgb(255, 255, 255);*/
+    padding: 2em;
+    /*height: 100%;*/
+}
+
+.pts-content .pts-tooltip {
+    vertical-align: middle;
+}
+
+.pts-content .pts-tooltip i {
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.pts-content label.control-label {
+/*    display: table-cell;
+    height: 27px;*/
+    margin: 4px 0 !important;
+    /*vertical-align: middle;*/
+
+    /*padding-top: 5px !important;*/
+    /*line-height: 1.42857;*/
+}
+
+.pts-content .pts-tooltip .btn-popover {
+    padding: 0;
+}
+
+.pts-content .pts-tooltip {
+    cursor: pointer;
+}
+
+.pts-content .translatable-field .dropdown-toggle {
+    padding: 3px 5px !important;
+}
+
+.pts-content label.text-left {
+    text-align: left !important;
+}
+
+.pts .modal {
+    z-index: 9012;
+}
+
+.pts div.content-form .translatable-field .translatable-input input.form-control {
+    height: auto !important;
+    margin: 0 !important;
+}
+
+div[data-depend] {
+    margin-top: 7px;
+}
+
+.translatable-flags.wysiwyg-flags {
+    margin-top: 7px;
+}
+
+@media (max-width: 991px) {
+    .pts-content .pts-tooltip .btn-popover {
+        padding-top: 5px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .pts-content .pts-tooltip {
+        margin-top: 3px !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .pts div.content-form .translatable-field div.translatable-input {
+        width: calc(100% - 70px);
+    }
+
+    .pts div.content-form .translatable-field .translatable-flags {
+        float: right;
+        width: 70px;
+    }
+
+    .pts-content.content-form > div.form-group {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e6e6e6;
+        margin: 2px 0 4px;
+    }
+
+    .pts-content .pts-nowrap label.control-label {
+        width: 1px !important;
+    }
+
+    .pts-content .pts-nowrap {
+
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pts-menu-xs .belt {
+        right: -10px;
+    }
+
+    .pts-content label.control-label {
+        padding-top: 4px !important;
+    }
+
+    .pts-menu-xs-container {
+        float: right;
+        padding: 2em;
+        width: auto !important;
+    }
+}

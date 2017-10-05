@@ -1,0 +1,127 @@
+Acuerdo de licencia PresTeamShop (PresTeamShop License Agreement)
+
+Realizado el: 2014-03-22
+
+Este Acuerdo de Licencia representa un acuerdo legal entre usted (ya sea un individuo o una entidad)
+y PresTeamShop, una compañía privada en Colombia, para el producto de software adquirido, 
+incluido el software, medios de comunicación y el acompañamiento en linea.
+
+CON LA COMPRA, INSTALACIÓN, COPIA O CUALQUIER OTRO USO DEL SOFTWARE , 
+USTED ACEPTA SUJETARSE A TODOS LOS TÉRMINOS Y CONDICIONES DEL CONTRATO DE LICENCIA.
+
+CONCESIÓN DE LICENCIA
+Siempre y cuando cumpla con todos los términos y condiciones de este acuerdo, 
+PresTeamShop le concede una licencia, no exclusiva, que incluye los siguientes derechos: 
+
+Puede instalar y utilizar 
+una copia del producto sólo en una tienda. Puede instalar y utilizar una copia del producto en varias tiendas siempre y cuando tenga una implementación de tiendas 
+múltiples (Multitienda), configuración soportada en versiones de PrestaShop 1.5 o superior. 
+La copia del software puede ser reinstalada solamente en la misma tienda con su respectiva Multitienda en versiones de PrestaShop 1.5 o superior.
+La incorporación del producto en su sitio web, la modificación de código fuente y la incorporación del código fuente modificado en el software del producto 
+se pueden realizar dentro de los límites de la cantidad de "Copias con Licencia" compradas.
+Usted puede hacer copias del Producto de respaldo y archivo.
+PresTeamShop se reserva todos los derechos no concedidos expresamente en este acuerdo.
+
+RESTRICCIONES
+A menos que se haya dado el consentimiento previo y por escrito de PresTeamShop, no es permitido: su reproducción, distribución o transferencia del producto o 
+partes del mismo a terceros; Vender, alquilar, arrendar, ceder o subarrendar el software o parte del mismo; otorgar derechos a otra persona.
+
+NOTA : PresTeamShop no admite ninguna forma de piratería de software.
+
+RENUNCIA DE GARANTÍA
+El software adquirido tiene garantía de un período de seis (6) meses a partir de la fecha de compra. 
+En este lapso de tiempo se le brindará el servicio de apoyo técnico para que el producto sea compatible y funcional en su sitio web.
+
+LIMITACIONES 
+Cada licencia de producto se expide sobre la base de la tienda (o Multitienda en versiones Prestashop 1.5 o superior) donde se va a utilizar. 
+Si usted necesita este producto en tiendas adicionales, debe comprar licencias adicionales.
+
+APOYO TÉCNICO
+El soporte técnico tiene una vigencia de seis (6) meses a partir del periodo de compra del producto. Este incluye envío de correos, chat, 
+llamadas, apoyo en la configuración directa en su tienda (si usted así lo desea) y cualquier otro medio de comunicación disponibles en ambas partes.
+
+GARANTÍA Y SOPORTE EXTENDIDO
+Usted podrá comprar una extensión del periodo de garantía y soporte que ofrece PresTeamShop, cada extensión de garantía y soporte tiene una vigencia 
+de seis (6) meses a partir de la compra y tendrá un valor del cincuenta porciento (50%) del valor vigente de la licencia del producto que compró. 
+Además tendrá derecho a tener actualizaciones del producto durante el periodo de tiempo que dure la extensión de garantía y soporte.
+
+DEVOLUCIONES
+Si por cualquier motivo el software no puede funcionar correctamente en su sitio web, usted puede hacer un acuerdo con PresTeamShop para que su dinero sea 
+devuelto por el mismo valor con el que fue realizada la compra de la licencia o la compra de la GARANTÍA Y SOPORTE EXTENDIDO.
+NOTA: Cualquier tipo de devolución de dinero hará que la licencia quede revocada y no podrá hacer uso, modificación ni cualquier otro uso del software adquirido.
+
+ENTREGA DEL PRODUCTO
+Todos los productos PresTeamShop: documentación y materiales relacionados se entregan electrónicamente a través de Internet.
+
+INSTALACIÓN Y CONFIGURACIÓN
+El servicio de instalación y configuración está disponible de manera gratuita, durante el periodo de soporte o de la GARANTÍA Y SOPORTE 
+EXTENDIDO. PresTeamShop se reserva derecho de cobrar por este servicio en el futuro.
+ 
+ACTUALIZACIONES DE PRODUCTOS
+El cliente recibe la actualización del producto gratis (Descargas) por 6 (seis) meses a partir de la fecha de compra como parte del producto. 
+Las actualizaciones de productos (descargas) después de esa fecha estarán disponibles por la compra de la GARANTÍA Y SOPORTE EXTENDIDO.
+No es posible recuperar actualizaciones que ya han sido descargadas. 
+En caso de cualquier intento de obtener las actualizaciones de una manera inapropiada, 
+distribuirlas o comercializarlas, PresTeamShop se reserva el derecho de dejar de prestar apoyo y desactivar todas las licencias de los productos desarrollados 
+por PresTeamShop hasta que el costo total del servicio de actualización se amortice.
+
+PresTeamShop no tiene la obligación de proporcionarle detalles adicionales que no hayan sido liberados para su distribución general o como actualización. 
+Ninguna disposición de la presente licencia se interpretará como una obligación de PresTeamShop para proporcionar actualizaciones a usted bajo ninguna circunstancia.
+
+CAMBIO DE PRODUCTO
+El cliente puede intercambiar el producto por el mismo producto para otras versiones de PrestaShop sin costo alguno en caso de que se tenga el servicio de 
+actualización y soporte activo. Si ha expirado la actualización y soporte de servicio de producto no puede ser cambiado.
+
+POLÍTICA DE CICLO DE VIDA
+PresTeamShop se reserva el derecho de modificar el ciclo de vida de cada uno de sus productos en general o particularmente.
+PresTeamShop se reserva el derecho de finalizar el desarrollo y soporte de sus productos, previo aviso por su boletín de noticias y respetando los tiempos de Garantía,
+Soporte y GARANTÍA Y SOPORTE EXTENDIDO que se encuentren activos.
+Los productos de PresTeamShop finalizarían su distribución, soporte y garantía en el caso que PrestaShop también finalice la distribución, desarrollo o soporte 
+de versiones.
+
+VERSIÓN DE EVALUACIÓN / DEMO
+PresTeamShop no ofrece versión de evaluación de ninguno de sus productos. La comercialización y/o distribución de copias de productos como versión de evaluación 
+por parte de terceros están desautorizados y son considerados ilegales.
+Las demostraciones de sus productos se pueden ver de forma on-line desde la página web de PresTeamShop (http://www.presteamshop.com) y pueden ser accedidos 
+desde la página de descripción de cada producto.
+
+POLÍTICA DE PRIVACIDAD
+En algunos sitios PresTeamShop le solicitará que nos proporcione información personal, como su dirección de e-mail, nombre, dirección de casa o del trabajo o 
+número de teléfono. Además , recopilamos cierta información estándar que su explorador envía a cada sitio web que visita, como su dirección IP, tipo de navegador y el idioma, 
+los tiempos de acceso y direcciones de sitios Web provenientes.
+
+USO DE SU INFORMACIÓN PERSONAL
+PresTeamShop utiliza su información personal para operar y mejorar sus sitios y servicios, para mejorar el software, soporte técnico y el desarrollo de un mejor 
+producto que satisfaga sus necesidades. Para comunicarnos con usted y brindarle servicio, realizamos llamadas para ofrecer un mejor soporte técnico y anuncios 
+de actualizaciones o noticias. Esto no incluye información personal, tales como su identidad, historial de navegación, contactos o información de familiares 
+y amigos. 
+
+Excepto por lo descrito en esta declaración, no revelaremos su información personal fuera de PresTeamShop sin su consentimiento.
+
+Usted es libre de cambiar su información personal. Tenga en cuenta, que su correo electrónico se utiliza como identificador único. 
+Debe notificar a PresTeamShop si le gustaría que lo cambien, ya que puede requerir algunas acciones adicionales de nuestro lado.
+
+MODIFICACIONES A ESTA DECLARACÍON DE PRIVACIDAD
+Ocasionalmente actualizaremos esta declaración de privacidad para reflejar los cambios en nuestros servicios y los comentarios de los clientes. 
+Cuando publiquemos cambios en esta declaración, revisaremos la fecha de "última actualización" en la parte superior de esta declaración. 
+Si hay cambios materiales en esta declaración o en cómo PresTeamShop utilizará su información personal, le notificaremos ya sea prominente publicación de 
+un aviso de tales cambios antes de implementarlos o enviándole directamente una notificación. Le recomendamos que revise periódicamente esta declaración para estar 
+informado de cómo PresTeamShop protege su información .
+
+PresTeamShop da la  bienvenida a sus comentarios sobre esta declaración de privacidad. Si tiene alguna pregunta sobre esta declaración o cree que no la hemos 
+respetado, póngase en contacto con nosotros a través de nuestro formulario web. Si usted tiene preguntas de soporte técnico o general, por favor visite 
+http://www.presteamshop.com/contact-form.php o escribanos al correo support@presteamshop.com.
+
+LIMITACIÓN DE LA RESPONSABILIDAD
+En ningún caso y bajo ninguna teoría legal, agravio, contrato o de otro modo, PresTeamShop será responsable ante usted o cualquier otra persona por daños 
+indirectos, especiales, incidentales o consecuentes de cualquier carácter incluyendo, sin limitación, daños por pérdida de fondo de comercio, paro laboral, 
+falla en la computadora, falla en el sitio web o mal funcionamiento, o cualquier otro daño comercial o pérdida.
+
+CONVENIENCIA
+La persona o empresa que utiliza este producto es el único responsable de probar (Sitios DEMO) completamente para asegurarse de que funciona a su satisfacción antes de comprar 
+una licencia y/o incorporarlo en su sitio web. Con la obtención de una licencia, el titular indica que el producto ha cumplido con sus expectativas y funciona a su 
+satisfacción.
+
+TERMINACIÓN
+Si usted no cumple con cualquier término o condición de este Acuerdo de Licencia, se da por terminado el acuerdo, se pierden todos los derechos de su licencia 
+y usted debe dejar de utilizar el producto. 

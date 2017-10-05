@@ -1,0 +1,160 @@
+@import "define.scss";
+
+@media (min-width: 200px) {
+	#layered_form > div > div {
+		display: block;
+	}
+	#layered_block_left {
+		.block_content {
+          display: block;
+          clear: both;
+		}
+			
+	}
+    #enabled_filters {
+        .layered_subtitle {
+	        margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (min-width: 768px) {
+	#layered_form > div > div {
+		float: left;
+		display: inline-block;
+	}
+	
+	#layered_block_left {
+		.block_content {
+			display: block;
+		}
+			
+    }
+
+    #enabled_filters {
+        .layered_subtitle {
+	        margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 0px;
+        }
+   }
+}
+
+
+
+div.selector,
+div.selector span {
+    /*background-image: none;*/
+}
+#layered_block_left {
+	.block_content {
+		/*display: inline-block;*/
+	}
+		
+}
+#layered_block_left ul {
+    padding: 0;
+    max-height: none;
+    
+}
+#layered_block_left .title_block {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    background: none;
+    border-top: none;
+    margin-right: 30px;
+}
+
+
+#enabled_filters {
+  background: none;
+  clear:both;
+  border-bottom: none!important;
+    ul {
+       clear: none;
+    }
+    .layered_subtitle {
+          border: 1px solid #ccc;
+          padding: 10px;
+          float: left!important;
+          display: inline-block;
+          margin-right: 10px;
+          
+    }
+    li {
+        float: left;
+        min-width: 0!important;
+        width: auto!important;
+        padding: 10px!important;
+        border: 1px solid #ccc!important;
+        margin-right: 10px;
+    }
+}
+#layered_form div div ul {
+	max-height: none;
+}
+#layered_form div.checker {
+	display: inline-block;
+}
+.layered_filter {
+    border-bottom: none;
+    /*position: relative;*/
+    
+    ul {
+    	display: none;
+    	position: absolute;
+    	background: #fff;
+    	@include max_content();
+    	max-width: 200px;
+    	padding: 5px!important;
+    	border: 1px solid $color_border_product;
+    	overflow-x: initial!important;
+    	z-index: 1000;
+    	
+    	li {
+			display: inline-block;
+			width: auto;
+			
+			.checker {
+				display: inline-block;
+				margin-left: 5px;
+			}
+    	}
+    }
+    .layered_subtitle {
+          
+          
+          
+          display: inline-block;
+          margin-right: 30px;
+          padding-right: 20px;
+          cursor: pointer;
+          background: url(../../img/fleche_bas.jpg) no-repeat center right;
+    }
+}
+
+
+.content_sortPagiBar .sortPagiBar {
+    border-bottom: none;
+}
+.content_sortPagiBar .sortPagiBar label {
+    padding: 0;
+}
+.heading-counter {
+    float: right;
+}
+
+.filtre {
+    border-bottom: 1px solid #cecece;
+}
+
+.filter .contain {
+    max-width: $width_site;
+    width: 100%;
+    margin: auto;
+}

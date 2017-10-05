@@ -1,0 +1,337 @@
+.hidden_wl {display:none}
+.separationd { clear:both; visibility:hidden; margin:0 }
+.mg_top6 {margin-top:6px !important}
+.mg_top12 {margin-top:12px !important}
+.mg_top24 {margin-top:24px !important}
+.mg_bottom6 {margin-bottom: 6px !important}
+.mg_bottom12 {margin-bottom: 12px !important}
+.mg_bottom0 {margin-bottom: 0 !important}
+.mg_right12 {margin-right: 12px !important}
+.mg_left12 {margin-left: 12px !important}
+.width6 {width: 50% !important}
+.fl_aw {float: left !important}
+.border_right1 {border-right: 1px solid #dedede}
+.hgt100pct {height:100% !important}
+.center {text-align:center}
+.alert_red {color:#FF0000}
+.underline {text-decoration:underline}
+.mg10-auto-10-10 {margin:10px auto 10px 0}
+
+span.bg1 {background-color:#FFFFCA}
+#date12 {margin-left:24px}
+.alert_no_data {
+color: red;
+font-size:1.1em;
+font-weight: bold;
+margin: 0 40% 6px auto;
+border: solid 1px gray;
+background-color: white;
+text-align: center;
+width: 350px
+}
+/* a.info {
+font-weight:normal;
+font-size:10px;
+text-decoration:underline;
+width:170px;
+margin-bottom:3px;
+}
+ */
+.cl_order_view {
+    width: 49%;
+    float: left
+}
+.cl_client_view {
+    width: 49%;
+    float: right !important
+}
+
+#container div#main div#content form fieldset div p.copy_legend {
+    border: 1px solid #DFD5C3;
+    font-weight: bold;
+    font-size:86%;
+    margin: 3px auto 8px 10px;
+    padding: 0.2em 0.5em;
+    text-align: left;
+    width:870px}
+
+#help_guide { margin-left: 26px; margin-top:-12px}
+# settings fieldset span.switch label {
+  clear:none !important
+}
+#activation form {margin-bottom:9px !important}
+#activation fieldset {background-color:#FDFDFD}
+/*List of orders over a period*/
+#results h1, #results h2, #results h3#h3, #results table, #results p, #results_searchlist {
+    margin-bottom: 0.3em !important;
+    margin-left: 0 !important;
+    margin-top: 0.5em !important
+}
+#results table#table2.tablesorter { margin-left:0}
+/*pdf block - back office*/
+#message_confirm {margin:6px 0 6px 0}
+.admin_pdf {
+font-weight:normal;
+margin-left:0;
+padding:3px 0 3px 0;
+text-align:center
+}
+#table2.tablesorter input.pagedisplay, #table2.tablesorter select.pagesize {
+    display: inline-block;
+    width: 80px
+}
+#table2.tablesorter select.pagesize {
+    width: 120px;
+    text-align: center
+}
+#table2.tablesorter tbody tr td a {text-decoration: underline}
+#selection_order.cockpit_select ul li img, div#selection_order.cockpit_select ul li label ,
+.admin_pdf:hover,label.admin_pdf input {cursor:pointer}
+.admin_pdf:hover,div.admin_pdf a:hover {
+cursor:pointer;
+background-color:#b6C9C5;
+}
+div.admin_pdf a:hover {
+text-decoration:none
+}
+a.admin_pdf {
+display:block;
+background-color:white;
+border:1px solid #DFD5C3;
+text-align:center;
+margin:0 7px 0 7px
+}
+a.admin_pdf img, label.admin_pdf img, #action_customer.cockpit_choice ul li img {padding-bottom:3px}
+input.submit_back {
+background-color:white;border:none;
+background-image:url(../img/bouton-vert_sansomb.png);
+width:154px;height:40px
+}
+input.submit_back:hover {
+background-image:url(../img/bouton-violet.png);
+cursor:pointer
+}
+div.back {
+background-image:url(../img/bouton-vert_sansomb.png);
+width:154px;height:40px;
+margin-top:20px;
+margin-left:16px
+}
+div.back:hover {
+background-image:url(../img/bouton-violet.png);
+cursor:pointer
+}
+/*--------cockpit----------*/
+label {text-align:left;/*width:140px*/}
+#selection_order.cockpit_select ul li label {color:#333333; text-shadow:none}
+#recoverydiv p img,
+#activation.noprint fieldset div.cockpit_select label.t img {vertical-align:text-bottom}
+#selection_order.cockpit_select ul li label {font-weight:normal}
+#recoverydiv input[type="submit"]  {margin: 6px auto 6px 32px;}
+div.cockpit_select input[type="submit"] {margin: 6px 0 6px 40%;}
+.margin-form {margin-left: 3px}
+#selection_customer.cockpit_select div.margin-form {padding-left: 0}
+
+#activationdiv {background-color:#FFFFF0}
+#listing #fieldset_cockpit {height:auto}
+#activation fieldset, #recovery fieldset {border:none}
+.cockpit_select_wide {
+padding: 0 4px 4px 4px;
+border: 1px solid #DFD5C3;
+font-size: 1.1em;
+position:relative;
+margin:16px 0 0 0;
+ -webkit-box-shadow: 2px 3px 10px #8F8F8F; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: 2px 3px 10px #8F8F8F; /* FF3.5 - 3.6 */
+          box-shadow:2px 3px 10px #8F8F8F; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+ -webkit-border-radius: 4px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 4px; /* FF1-3.6 */
+          border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+}
+div.name_block_cockpit_wide {
+margin: 0;
+padding: 0.2em 0.5em;
+border: 1px solid #DFD5C3;
+background: #cf9;
+font-weight: bold;
+text-align: left;
+position:relative;
+top:-10px
+}
+#name_cockpit {background-color:#FFCC66}
+/* form#orders_select, form#listing, form#activation, form#recovery {float:left;margin-left:6px} */
+/* form#orders_select, form#activation, form#listing, form#recovery { margin-left:6px }
+ */
+/* form#orders_select {width:449px}
+ */
+ .cockpit_choice, .cockpit_select {padding-top: 6px}
+div.cockpit_select_wide form fieldset {
+padding:1em 0.4em 0.4em 0.4em;
+background-color: #FDFDFD
+}
+div.cockpit_select_wide div#recovery.cockpit_select p {margin:0; padding:0}
+div.cockpit_choice {
+    margin-left: 110px;
+    padding-left: 0
+}
+.cockpit_select {
+   /* float:left;*/
+    padding-left: 2px;
+    padding-right: 2px;
+    /*width: 430px;*/
+    position: relative
+    }
+div.cockpit_select_wide form#recovery.noprint fieldset div#recovery.cockpit_select {height:auto}
+.cockpit_choice ul, .cockpit_select ul {padding:3px}
+.cockpit_choice ul li, .cockpit_select ul li {
+margin: 3px;
+list-style: none outside none
+}
+.cockpit_choice ul li a {color:#333}
+.cockpit_choice ul li a:hover {text-decoration:underline; color:#000}
+fieldset div#selection_customer.cockpit_select label {padding-left:0.4em}
+div.cockpit_select_wide form {position:relative}
+fieldset legend.legend_cockpit {
+    background-color: #D6D9D5;
+    border : 1px solid gray
+}
+fieldset legend.order_detail {
+    background-color: #c3bfd8;
+    color: #333333;
+    width: auto
+}
+fieldset legend.total_donation {
+    background-color: #B6C9C5;
+    color: #222222
+}
+#results_cust form.noprint {position:relative}
+form fieldset a.back_cockpit {
+    width: 142px;
+    border: 1px solid gray;
+    padding: 3px;
+    background-color: #D6C9C5;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -32px
+}
+form fieldset a.back_cockpit:hover, a.back_cockpit:hover {background-color: #b6C9C5}
+a.back_cockpit {
+    width: 142px;
+    border: 1px solid gray;
+    padding: 3px;
+    background-color: #D6C9C5;
+    display: block
+}
+
+#results_cust form fieldset table#detailwl1 tbody tr {height:52px}
+div#results {position:relative}
+.bottomright {
+position:relative;
+bottom:2px;
+left: 81%
+}
+div.name_block_cockpit, div.name_block_cockpit_0 {
+    background-color: #eee;
+    border: 1px solid gray;
+    border-radius: 2px;
+    z-index: 1;
+    text-align:center;
+    width: 220px
+}
+
+div.name_block_cockpit_0 {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 3px 0 3px;
+    position: relative;
+    top: -16px
+}
+#content.bootstrap #results_cust p.copy_legend {
+    width: auto
+}
+fieldset#don {background-color:#f5f9f7}
+fieldset#orderd {background-color: #F9F8F9}
+fieldset#orderd div p.copy_legend {background-color:#ddd}
+fieldset#orderd div tr#order_product th, fieldset#orderd div tr#order_product { background-image:none; background-color:#eee; font-size:12px}
+div#recoverydiv div.titledd {font-weight:bold}
+div#recoverydiv div.masterborder {margin-left: auto; margin-right: auto; width: 430px}
+table.masterborder td.borderdd , td.newdd {
+background-color:#FFFFFF;
+text-align:center;
+padding:3px 6px 3px 6px;
+margin: 3px auto auto 0px;
+width:184px
+}
+td.borderdd {border:1px dotted #330099}
+.newdd {border:1px solid #007700}
+table.masterborder td.colordd1 {background-color:#ffcc33 /*FFCCCC*/}
+table.masterborder td.colordd2 {background-color: #FF6666} /*red*/
+table.masterborder td.colordd3 {background-color: #CCFF33} /*green*/
+table.masterborder td.nextdd {margin: 16px 0 auto 6px}
+
+/* to come back to cockpit page from email confirmation sending*/
+.back_blockwl {
+background-color: #D6C9C5;
+    border: 1px solid gray;
+    display: block;
+    float:left;
+    padding: 3px;
+    margin-left:16px;
+    margin-top:10px;
+    width: 200px
+}
+a.back_blockwl:hover {
+background-color: #b6C9C5;
+text-decoration:none
+}
+a.back_blockwl span , .submit_action form input, #output_csv form input {
+    color: blue;
+    font-family: Verdana,sans-serif;
+    font-size: 1.2em;
+    height: 100%;
+    text-align: center
+}
+.submit_action input,
+#output_csv {margin-left:16px;padding:0}
+
+.submit_action input,
+#output_csv form input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    text-decoration: underline;
+    margin-left:0;
+    width:100%
+}
+.submit_action form, #output_csv form {
+margin:0;
+background-repeat:no-repeat;
+background-position:3px 6px;
+height:100%;
+text-align: center
+}
+#output_csv form, #output_csv form:hover {background-image:url(../img/icon/export.gif)}
+#output_excel form, #output_excel form:hover {background-image:url(../img/icon/excel.png)}
+#output_print form, #output_print form:hover {background-image:url(../img/icon/printer.gif)}
+
+.submit_action form:hover, #output_csv form:hover {
+background-repeat:no-repeat;
+background-position:3px 6px;
+background-color: #b6C9C5;
+text-decoration:none
+}
+.submit_action form:hover, .submit_action form input:hover, #output_csv form input:hover  {
+text-decoration:none;
+cursor:pointer
+}
+
+.submit_action form input, #output_csv form input#submit_csv {width:100%;height:100%}
+a#print {height: 30px}
+div.submit_action, #output_csv {height: 3em;padding:0}
+a#print {
+background-image:url(../img/icon/printer.gif);
+background-repeat:no-repeat;
+background-position:3px 6px;
+text-align:center
+}
+a#print span {display:block; margin-top:6px}

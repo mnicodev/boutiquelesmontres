@@ -1,0 +1,109 @@
+/**
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2016 PresTeamShop
+ * @license   see file: LICENSE.txt
+ */
+
+/* tab-translate */
+div#tab-translate div#content_translations div.content_translations {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 0 3px #fff inset;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+div#tab-translate div#content_translations div.content_translations div.panel-heading,
+div#tab-faqs > div.panel-group > div.panel > div.panel-heading {
+    border-color: -moz-use-text-color -moz-use-text-color #eee;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+}
+
+div#tab-translate div#content_translations div.content_translations div.panel-footer,
+div#tab-faqs > div.panel-group > div.panel > div.panel-footer {
+    background-color: #fff;
+}
+
+div#tab-translate .form-inline .form-group .form-control,
+div#tab-feedbacks .form-inline .form-group .form-control {
+    width: auto;
+}
+
+div#tab-translate div.panel div.panel-collapse div.panel-body input.input-error-translate {
+    background-color: #fbb;
+}
+div#tab-translate div.panel div.panel-heading .panel-title {
+    word-wrap: break-word;
+}
+
+div#tab-translate div.table-responsive table.table tr td.input_content_translation {
+    min-width: 400px;
+}
+div#tab-translate div.table-responsive table.table tr td {
+    white-space: normal;
+}
+div#tab-translate div#panel_group_translations div.panel div.panel-footer {
+    margin: 6px 0;
+    padding: 0 7px;
+    background: none;
+}
+div#tab-translate div#panel_group_translations div.panel {
+    padding: 15px 12px 0px 12px;
+}
+div#tab-translate #content_translations .panel-title{
+    padding: 10px 0;
+}
+
+/* tab code editors */
+div#tab-code_editors .col-md-12 .col-md-12 > h4{
+    text-transform: uppercase;
+}
+
+div#tab-code_editors form.form-code-editors{
+    margin-bottom: 2%;
+}
+
+/* tab-suggestions  */
+#tab-suggestions .alert::before {
+    content: "";
+}
+#tab-suggestions .alert{
+    width: 70% !important;
+    font-size: 22px;
+    font-weight: 200;
+    margin: 15px auto;
+}
+#tab-suggestions .alert.alert-success{
+    padding: 10px 4%;
+}
+#tab-suggestions .alert.alert-info{
+    padding: 10px 5%;
+}
+#tab-suggestions .content-text-suggestions {
+    padding-top: 4%;
+}
+
+div#tab-suggestions a#suggestions-opinions,
+div#tab-suggestions a#suggestions-contact
+{
+    text-decoration: underline;
+}
+
+div#tab-suggestions a#suggestions-contact {
+    font-weight: normal;
+    color: #468847;
+}
+
+div#tab-feedbacks ul.pagination li a {
+    cursor: pointer;
+}
+
+div#tab-feedbacks ul.pagination li.active {
+    display: inline;
+}

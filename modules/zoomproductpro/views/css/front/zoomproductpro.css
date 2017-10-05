@@ -1,0 +1,263 @@
+/**
+ * We offer the best and most useful modules PrestaShop and modifications for your online store.
+ *
+ * We are experts and professionals in PrestaShop
+ *
+ * @category  PrestaShop
+ * @category  Module
+ * @author    PresTeamShop.com <support@presteamshop.com>
+ * @copyright 2011-2016 PresTeamShop
+ * @license   see file: LICENSE.txt
+ */
+
+/*Prevent overlay in the version 1.2.x*/
+#TB_load,#TB_overlay{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#fancybox-content{
+    box-shadow: 0 0 100px #000000;
+    z-index: auto!important;/*fix bug chrome with gallery images*/
+    max-width: 100%;
+}
+
+#fancybox-wrap{
+    max-width: 100%!important;
+}
+
+#fancybox_zoomproductpro{
+    cursor: move !important;
+}
+
+.fancybox_zoomproductpro_button{
+    text-decoration: none!important;
+    cursor: pointer;
+    font-size: 110%;
+    color: #EEE7E1!important;
+    background-color: #A0A0A0;
+    position: absolute;
+    top: 0;
+    line-height: 24px;
+    z-index: 1010;
+}
+
+.fancybox-wrap #fancybox-close{
+    display: block !important;
+}
+
+.fancybox_zoomproductpro_button_large{
+    width: 90px;
+    height: 28px;
+    background: transparent url('../../img/test.png') no-repeat scroll 0 0;
+    text-align: center;
+}
+
+.fancybox_zoomproductpro_button_large:hover{
+    color: black!important;
+    background-position: 0px -28px;
+}
+
+#fancybox_zoomproductpro_close{
+    right: 115px;
+}
+
+#fancybox_zoomproductpro_reset{
+    right: 210px;
+}
+#fancybox_zoomproductpro_360 {
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 1010;
+    cursor: pointer;
+}
+
+#fancybox_zoomproductpro_360 img {
+    width: 67px;
+}
+
+.fancybox_zoomproductpro_button_small{
+    width: 25px;
+    height: 28px;
+    background: transparent url('../../img/sprite_zoom.png') no-repeat scroll 0 0;
+}
+
+#fancybox_zoomproductpro_zoom_in{
+    background-position: 0 0;
+    right: 340px;
+}
+#fancybox_zoomproductpro_zoom_in:hover{background-position: 0px -28px}
+
+#fancybox_zoomproductpro_zoom_out{
+    background-position: -25px 0;
+    right: 310px;
+}
+#fancybox_zoomproductpro_zoom_out:hover{background-position: -25px -28px}
+
+#fancybox_zoomproductpro_gallery{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    overflow: auto;
+    padding: 5px;
+    height: 590px;
+    width: 100px;
+}
+
+#fancybox_zoomproductpro_gallery li{
+    list-style: none;
+}
+
+#fancybox_zoomproductpro_gallery li img{
+    cursor: pointer;
+    border: 1px solid #EEE7E1;
+    width: 100%;
+}
+
+#fancybox_zoomproductpro_gallery li img:hover{
+    border: 1px solid #bfbab5;
+}
+
+.fancybox_zoomproductpro_gallery_selected{
+    border: 2px solid #bfbab5 !important;
+}
+
+.fancybox_zoomproductpro_gallery_nav_control{
+    position: absolute;
+    top:50%;
+    z-index: 1005;
+}
+
+.fancybox_zoomproductpro_loading{
+    position: relative;
+    top: 50%;
+    background-color: #76B653;
+    color: white;
+    border: 1px solid #595A5E;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+    display: block;
+}
+
+/*fix bug chrome with gallery images*/
+.fancybox-bg{
+    display: none!important;
+}
+
+.smooth_zoom_preloader {
+	background-image: url(../../img/lib/zoom_assets/preloader.gif);
+}
+.smooth_zoom_icons {
+	background-image: url(../../img/lib/zoom_assets/icons.png);
+}
+
+/*Para ocultar Thinkbox en version menores de 1.4*/
+#TB_window, #TB_overlay{
+    display: none!important;
+}
+#usefull_link_block #view_full_size,
+#image-block #view_full_size .span_link{
+    display: none!important;
+}
+
+#nav_left_360,
+#nav_right_360 {
+    position: absolute;
+    top: 50%;
+}
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 360px) {
+
+    .fancybox-close {
+        visibility: hidden !important;
+    }
+
+    .smooth_zoom_preloader img {
+        transform: translate(0px, 0px) scale(1);
+    }
+
+    .fancybox-inner > img#fancybox_zoomproductpro {
+/*        bottom: 0 !important;
+        height: 70%;*/
+        top: 30%;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .smooth_zoom_preloader,
+    #slider_360-reel {
+        top: 7% !important;
+        position: absolute !important;
+    }
+
+    .fancybox-outer,
+    .fancybox-skin,
+    .smooth_zoom_preloader,
+    #slider_360-reel,
+    .fancybox-inner {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .fancybox-wrap {
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #fancybox_zoomproductpro_gallery ul li {
+        float: left !important;
+        width: calc(100% / 4) !important;
+    }
+
+    #fancybox_zoomproductpro_gallery {
+/*        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        top: 40px !important;*/
+        visibility: hidden;
+    }
+
+    #fancybox_zoomproductpro_zoom_in {
+        /*top: 4px;*/
+        right: 265px !important;
+    }
+
+    #fancybox_zoomproductpro_zoom_out {
+        /*top: 4px;*/
+        right: 235px !important;
+    }
+
+    #fancybox_zoomproductpro_reset {
+        /*top: 4px;*/
+        right: 135px !important;
+    }
+
+    #fancybox_zoomproductpro_close {
+        /*top: 4px;*/
+        right: 40px !important;
+    }
+
+    .fancybox_zoomproductpro_gallery_nav_control.right_zoom_control {
+        right: 0 !important;
+    }
+
+/*    .close_reset_container {
+        display: block;
+        clear: both;
+    }*/
+/*    #fancybox_zoomproductpro_reset,
+    #fancybox_zoomproductpro_close {
+        display: block;
+        clear: both;
+    }*/
+}
+
+/* /RESPONSIVE */

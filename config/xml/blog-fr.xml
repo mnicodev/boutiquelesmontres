@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/fr/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/fr/blog/feed.xml</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.prestashop.com/fr/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>2017 ou l’année de tous les records : la barre des 100 meetups PrestaShop est franchie ! </title>
+    <link>https://www.prestashop.com/fr/blog/2017-ou-lannee-de-tous-les-records-la-barre-des-100-meetups-prestashop-est-franchie</link>
+    <description>Le 23 septembre 2017 est une journée très spéciale pour PrestaShop et sa communauté. Pourquoi ? Parce qu’il s’agit du 100e meetup organisé depuis le 1er janvier !</description>
+     <pubDate>Tue, 03 Oct 2017 10:58:43 +0200</pubDate>
+ <dc:creator>AmbassadorTeam</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/2017-ou-lannee-de-tous-les-records-la-barre-des-100-meetups-prestashop-est-franchie</guid>
+  </item>
+  <item>
+    <title>Rencontrez Mohamadou, Ambassadeur du mois | Septembre 2017</title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-ambassadors/rencontrez-mohamed-ambassadeur-du-mois-septembre-2017</link>
+    <description>Mohamadou est notre Ambassadeur à Dakar, au Sénégal et a récemment fait parler de lui sur </description>
+     <pubDate>Thu, 21 Sep 2017 00:00:00 +0200</pubDate>
+ <dc:creator>Manon Plommet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-ambassadors/rencontrez-mohamed-ambassadeur-du-mois-septembre-2017</guid>
+  </item>
+  <item>
+    <title>Constituez votre logiciel ERP sur-mesure en fonction de votre activité e-commerce ! </title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-news/lancement-prestashop-erp</link>
+    <description>PrestaShop lance PrestaShop ERP
+Constituez votre logiciel ERP sur-mesure en fonction de votre activité e-commerce !</description>
+     <pubDate>Tue, 19 Sep 2017 10:22:46 +0200</pubDate>
+ <dc:creator>emmanuelfages</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-news/lancement-prestashop-erp</guid>
+  </item>
+  <item>
+    <title>comment être plus efficace, mieux intégrer mes outils, connecter mon ERP et mon site e-commerce PrestaShop ?</title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-partners/comment-etre-plus-efficace-mieux-integrer-mes-outils-connecter-mon-erp-et-mon-site-e-commerce-prestashop</link>
+    <description>1.   Grandir en eCommerce</description>
+     <pubDate>Mon, 18 Sep 2017 14:27:36 +0200</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-partners/comment-etre-plus-efficace-mieux-integrer-mes-outils-connecter-mon-erp-et-mon-site-e-commerce-prestashop</guid>
+  </item>
+  <item>
+    <title>Faites le plein d’idées e-commerce avec PrestaShop à la Paris Retail Week 2017</title>
+    <link>https://www.prestashop.com/fr/blog/actualites-prestashop-events/faites-le-plein-didees-e-commerce-avec-prestashop-a-la-paris-retail-week-2017-0</link>
+    <description> </description>
+     <pubDate>Mon, 18 Sep 2017 11:27:12 +0200</pubDate>
+ <dc:creator>cdeguingand</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/actualites-prestashop-events/faites-le-plein-didees-e-commerce-avec-prestashop-a-la-paris-retail-week-2017-0</guid>
+  </item>
+  <item>
+    <title>Comment concevoir et valoriser des vidéos d’une chaîne YouTube de marque ?</title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-partners/comment-concevoir-et-valoriser-des-videos-dune-chaine-youtube-de-marque</link>
+    <description>Comme nous vous l’avions expliqué dans un article de blog précédent, la création d’une chaîne YouTu</description>
+     <pubDate>Thu, 14 Sep 2017 16:41:43 +0200</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-partners/comment-concevoir-et-valoriser-des-videos-dune-chaine-youtube-de-marque</guid>
+  </item>
+  <item>
+    <title>Réussir vos fêtes de fin d’année : les 6 leviers e-marketing qui vont booster vos ventes</title>
+    <link>https://www.prestashop.com/fr/reussir-vos-fetes-de-fin-d-annee-les-6-leviers-e-marketing-qui-vont-booster-vos-ventes</link>
+    <description>17 milliards d’euros !</description>
+     <pubDate>Thu, 31 Aug 2017 00:00:00 +0200</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/reussir-vos-fetes-de-fin-d-annee-les-6-leviers-e-marketing-qui-vont-booster-vos-ventes</guid>
+  </item>
+  <item>
+    <title>Erreurs HTTP 404 Not Found - Comment résoudre ?</title>
+    <link>https://www.prestashop.com/fr/blog/erreurs-http-404-not-found-comment-resoudre</link>
+    <description>Les erreurs 404 peuvent considérablement nuire aux boutiques en ligne et à l&#039;expérience de navigation des utilisateurs. Trop fréquentes, elles impacteront les ventes et la satisfaction client.</description>
+     <pubDate>Fri, 25 Aug 2017 15:24:05 +0200</pubDate>
+ <dc:creator>benjamin utterback</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/erreurs-http-404-not-found-comment-resoudre</guid>
+  </item>
+  <item>
+    <title>Rencontrez Giuseppe, Ambassadeur du mois | Août 2017</title>
+    <link>https://www.prestashop.com/fr/blog/prestashop-ambassadors/rencontrez-giuseppe-ambassadeur-du-mois-aout-2017</link>
+    <description>Giuseppe est notre Ambassadeur à Battipaglia, en Italie, et est actif ces derniers temps. Il organise des meetups fréquemment dans sa région et est toujours prêt à aider la Communauté PrestaShop.</description>
+     <pubDate>Mon, 14 Aug 2017 16:05:23 +0200</pubDate>
+ <dc:creator>Manon Plommet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/prestashop-ambassadors/rencontrez-giuseppe-ambassadeur-du-mois-aout-2017</guid>
+  </item>
+  <item>
+    <title>Comment simplifier le tunnel d’achat tout en doublant votre taux de conversion ?  </title>
+    <link>https://www.prestashop.com/fr/blog/conseils-e-commerce/comment-simplifier-le-tunnel-dachat-tout-en-doublant-votre-taux-de-conversion</link>
+    <description>Par  </description>
+     <pubDate>Thu, 03 Aug 2017 11:29:51 +0200</pubDate>
+ <dc:creator>prestashop-partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/fr/blog/conseils-e-commerce/comment-simplifier-le-tunnel-dachat-tout-en-doublant-votre-taux-de-conversion</guid>
+  </item>
+  </channel>
+</rss>

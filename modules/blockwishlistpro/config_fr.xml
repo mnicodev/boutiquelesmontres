@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockwishlistpro</name>
+	<displayName><![CDATA[WishlistPro]]></displayName>
+	<version><![CDATA[2.8.1]]></version>
+	<description><![CDATA[ Ajoute un bloc contenant les listes de cadeaux des clients. Egalement des informations et le tableau de bord des listes de cadeaux, PDF et e-mails.]]></description>
+	<author><![CDATA[Alize Web]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Voulez vous vraiment désinstaller ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

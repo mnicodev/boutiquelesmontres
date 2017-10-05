@@ -1,0 +1,20 @@
+ * {
+ color:#000;
+ background-color:#fff;
+ font-family:"times new roman",times,serif;
+}
+/*div#flagsLanguage, #menu, #submenu, a#referent, a#referent_bottom, div#output_csv, a#print, span#rowcount, a#cleanfilters, span#colwidth, div#col_width a, tr.filters, #footer, #bo_query, #bo_search_type, input[name="bo_search"], .path_bar, .margin-form, .cockpit_select_wide, .noprint, .submit_action, .alert, .confirm, #p, .back_cockpit, html body div#container div#main div#content div#results a.back_cockpit 
+*/
+a#referent, a#referent_bottom, div#header_infos, div#header_search, div#header_quick, div.flatclear, , #bo_query, #bo_search_type {
+display:none;
+}
+
+#menu, #submenu, div#settings, div.cockpit_select_wide, div#output_csv,div#output_excel, div#output_print, div#footer, a.back_cockpit, th#pagerOne.pagerOne, div#content table.table, div.path_bar, table#table2 thead tr.filters {
+display:none;
+}
+
+#results {
+margin-top:-40px
+}
+
+table#table2 th, table#table2 td, table#table2.tablesorter tbody tr td, table#table2.tablesorter thead tr th {text-align:left;} 

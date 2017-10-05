@@ -1,0 +1,11 @@
+CHANGELOG (Historial de versiones)
+
+[ADD] = Adiciones de funcionalidades
+[MOD] = Modificaciones y actualizaciones
+[FIX] = Correccion de problemas o errores (Bugs)
+
+V2.0.0
+- Nueva version para PrestaShop 1.5 & 1.6
+
+V2.0.1 (24/08/2016)
+[-] FIX: Problema de seguridad solucionado.

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Message de {shop_name}</title>
+</head>
+<body>
+	<table style="font-family:Verdana,sans-serif; font-size:11px; color:#374953; width: 550px;">
+		<tr>
+			<td align="left">
+				<a href="{shop_url}" title="{shop_name}"><img alt="{shop_name}" src="{shop_logo}" style="border:none;" ></a>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="background-color:#DB3484; color:#FFF; font-size: 12px; font-weight:bold; padding: 0.5em 1em;">
+			Message de {shop_name}</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">Bonjour {shop_name},</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">
+				<p>Vous recevez une <b>copie du mail envoy&eacute; &agrave; {firstname} {lastname}</b>, dont l'extrait est : </p><br />
+				
+				
+				
+				Nous avons le plaisir de vous envoyer en pi&egrave;ce jointe les toutes <b>derni&egrave;res informations</b> &agrave; propos de votre <b>liste de cadeaux</b> 
+				"<a href="{message}" title="WishList">{wishlist}</a>".
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr><td>
+		 <p>Nous sommes &agrave; votre disposition pour tout renseignement compl&eacute;mentaire au 01 48 78 09 91, ou par retour de mail {shop_mail}.</p>
+		  <br>
+		<p>Sinc&egrave;rement</p>
+		  <br>
+		 <p>Le Service Clients</p></td> </tr>
+		<tr>
+			<td align="center" style="font-size:10px; border-top: 1px solid #D9DADE;">
+				<a href="{shop_url}" style="color:#DB3484; font-weight:bold; text-decoration:none;">{shop_name}</a> r&eacute;alis&eacute; par <a href="http://www.alizeweb.fr/" style="text-decoration:none; color:#374953;">Aliz&eacute; Web</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

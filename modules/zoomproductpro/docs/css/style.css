@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 28/07/2015, 04:25:05 PM
+    Author     : PresTeamShop
+*/
+img#img_logo{
+    height: 80px;
+    width: 88px;
+    float: left;
+}
+
+h3#tabs_menu {
+    padding: 17px 0 0px !important;
+}
+section img {
+    width: 100%;
+}
+
+article{
+    margin: 5px 0;
+}
+
+.box-content section ul {
+    list-style: initial !important;
+}
+
+.icons {
+    width: auto;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
