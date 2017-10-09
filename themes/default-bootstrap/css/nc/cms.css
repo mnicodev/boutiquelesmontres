@@ -18,9 +18,9 @@
       float: left;
       max-width: 50%;
       width: 100%; }
-      .cms-content .cms-bloc img {
-        width: 100%;
-        margin-top: 60px; } }
+    .cms-content img {
+      width: 48%;
+      margin-top: 60px; } }
 .bloc-text {
   padding-top: 40px;
   padding-bottom: 20px;

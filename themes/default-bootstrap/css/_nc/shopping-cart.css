@@ -1,0 +1,84 @@
+@media (min-width: 200px) {
+  #order_step {
+    border-radius: 0; }
+    #order_step li span {
+      font-weight: normal; }
+    #order_step li.step_current {
+      background: #f5f5f5;
+      border: none; }
+      #order_step li.step_current span {
+        border-color: #d1d1d1;
+        text-shadow: none;
+        color: #000;
+        background: #f5f5f5; }
+      #order_step li.step_current span:after {
+        background: none; }
+    #order_step li.step_done {
+      background: #f5f5f5;
+      border-color: #d1d1d1;
+      text-shadow: none;
+      color: #000;
+      border: none; }
+      #order_step li.step_done a {
+        text-shadow: none;
+        color: #000;
+        border: 1px solid #d1d1d1; }
+      #order_step li.step_done a:after {
+        background: none; }
+    #order_step li.step_done_last a:after {
+      background: none; }
+    #order_step li.step_todo {
+      background: #fff;
+      border: none; }
+      #order_step li.step_todo span {
+        border-color: #d1d1d1;
+        text-shadow: none;
+        color: #000; }
+      #order_step li.step_todo span:after {
+        background: none; }
+    #order_step li.first {
+      border-left-width: 0;
+      -moz-border-radius-topleft: 0px;
+      -webkit-border-top-left-radius: 0px;
+      border-top-left-radius: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-bottom-left-radius: 0px;
+      border-bottom-left-radius: 0px; }
+
+  #cart_summary tbody td.cart_product {
+    width: auto; }
+    #cart_summary tbody td.cart_product .cart_ref {
+      text-transform: uppercase; }
+    #cart_summary tbody td.cart_product td {
+      border-top: none; }
+    #cart_summary tbody td.cart_product img {
+      border: none; }
+
+  .cart_quantity .cart_quantity_input, .cart_quantity .cart_quantity_input:focus {
+    border: none;
+    color: #000;
+    margin: auto; }
+
+  .btn.button-plus, .btn.button-minus {
+    font-size: 14px;
+    line-height: 14px;
+    color: #c0c0c0;
+    text-shadow: 1px -1px rgba(0, 0, 0, 0.05);
+    padding: 0;
+    background: url(../../img/down_up.jpg) no-repeat;
+    border: none !important;
+    width: 32px;
+    height: 32px;
+    border-radius: 0; }
+
+  .btn.button-plus span, .btn.button-minus span {
+    background: none;
+    border: none;
+    color: #000;
+    margin-left: 3px;
+    margin-top: 5px; }
+
+  .btn.button-minus span:hover, .btn.button-plus span:hover {
+    background: none; } }
+
+/*# sourceMappingURL=shopping-cart.css.map */

@@ -199,6 +199,11 @@ h3.selection {
   color: #000;
   border: 1px solid #cfcfcf; }
 
+.alert-info {
+  background-color: #000;
+  color: #fff;
+  border: none; }
+
 .shadow {
   position: fixed;
   width: 100%;
@@ -275,7 +280,7 @@ span.button {
   .ac_results {
     width: 90% !important; }
 
-  #search_block_top #search_query_top50px {
+  #search_block_top #search_query_top {
     display: block; }
 
   #header .cart_block {
@@ -355,6 +360,9 @@ span.button {
     cursor: pointer;
     background-size: 100%; } }
 @media (min-width: 768px) {
+  #search_block_top #search_query_top {
+    display: none; }
+
   #burger {
     display: none; }
 
@@ -373,11 +381,13 @@ span.button {
         margin: 0;
         left: 50%;
         position: relative; }
+        header#top-header nav ul li img {
+          margin-right: 5px; }
     header#top-header li {
       float: left;
       color: #fff;
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
       line-height: 30px;
       text-transform: uppercase; }
     header#top-header .container {
@@ -533,10 +543,7 @@ header .nav {
       top: 10px;
       right: 3px; }
     #block_top_menu ul.sf-menu li ul {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      padding-left: 20px;
-      padding-right: 20px; }
+      /*@include padding(5px,0px,20px,20px);*/ }
       #block_top_menu ul.sf-menu li ul li {
         padding-bottom: 10px; }
     #block_top_menu ul.sf-menu ul {
@@ -598,7 +605,9 @@ header .nav {
     margin-bottom: none;
     border-right: none;
     margin-bottom: 0;
-    position: relative; }
+    position: relative;
+    width: 33.33%;
+    text-align: center; }
 
   .sf-menu > li > a {
     padding-top: 8px;
@@ -651,6 +660,10 @@ header .nav {
 
   #block_top_menu .sf-menu li ul {
     padding: 0; } }
+@media (min-width: 992px) {
+  .sf-menu > li {
+    width: auto;
+    text-align: left; } }
 /* fin bloc top */
 /* fin block header */
 /* columns container */
@@ -718,6 +731,9 @@ header .nav {
     width: 100%;
     position: relative; }
 
+  #les_entrees .entre .bloc_hover {
+    display: none; }
+
   #les_entrees .entre:first-child {
     border-bottom: none; }
 
@@ -736,9 +752,6 @@ header .nav {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%; }
-
-  #les_entrees .entre:hover .bloc_hover {
-    display: block; }
 
   #les_entrees .entre .bloc_hover {
     position: absolute;
@@ -772,6 +785,9 @@ header .nav {
     top: 50% !important;
     display: block; } }
 @media (min-width: 992px) {
+  #les_entrees .entre:hover .bloc_hover {
+    display: block; }
+
   #les_entrees .bloc_hover img {
     width: auto; } }
 @media (min-width: 1200px) {
@@ -1112,19 +1128,27 @@ body.index #columns > .row {
     padding: 9px 0;
     background: none; }
 
-  ul.product_list.grid > li .product-container .product-image-container img {
-    margin-top: 40px; }
+  ul.product_list.grid > li .product-container .button-container .lnk_view {
+    margin: 0 4px 5px 4px; }
+
+  ul.product_list.grid > li {
+    float: none;
+    margin: auto;
+    max-width: 390px;
+    width: 100%; }
 
   #product_list .right-block .button-container {
     position: absolute;
     top: 60px;
     right: 0px;
     padding-bottom: 10px;
-    width: 100%; } }
+    width: 100%; }
+
+  ul.product_list.grid > li .product-container .product-image-container img {
+    margin-top: 60px; } }
 @media (min-width: 768px) {
   ul.product_list.grid > li {
-    float: none;
-    margin: auto; }
+    float: left; }
 
   .voir-tous {
     margin-top: 40px;
@@ -1133,6 +1157,10 @@ body.index #columns > .row {
 
   .right-block .button-container {
     display: block !important; }
+
+  ul.product_list.grid li {
+    max-width: 33.33%;
+    width: 100%; }
 
   ul.product_list.grid > li .product-container {
     -moz-box-shadow: rgba(0, 0, 0, 0.17) 0 0 13px;
@@ -1159,25 +1187,14 @@ body.index #columns > .row {
     display: block; }
 
   ul.product_list.grid > li .product-container .product-image-container {
-    border: none; }
-
-  ul.product_list.grid > li .product-container .product-image-container .content_price {
-    position: absolute;
-    left: 20px;
-    top: 15px;
-    width: auto;
-    padding: 9px 0;
-    background: none; }
-
-  ul.product_list.grid > li .product-container .product-image-container img {
-    margin-top: 60px; }
-
+    border: none; } }
+@media (min-width: 992px) {
   #product_list .right-block .button-container {
     position: absolute;
     top: 25px;
-    right: 20px;
-    width: auto; } }
-@media (min-width: 992px) {
+    right: 10px;
+    width: auto; }
+
   .right-block .button-container {
     display: none !important; }
 
@@ -1195,6 +1212,14 @@ body.index #columns > .row {
 
   ul.product_list.grid > li {
     float: left; }
+
+  ul.product_list.grid > li .product-container .product-image-container .content_price {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: auto;
+    padding: 9px 0;
+    background: none; }
 
   ul.product_list.grid > li.hovered .product-container {
     -moz-box-shadow: rgba(0, 0, 0, 0.17) 0 0 13px;
@@ -1227,9 +1252,6 @@ ul.product_list {
 #product_list h5 {
   color: #000;
   font-size: 1.2em; }
-#product_list li {
-  max-width: 390px;
-  width: 100%; }
 #product_list li.product-hidden {
   display: none; }
 #product_list .right-block .button-container .ajax_add_to_cart_button {
@@ -1874,11 +1896,14 @@ body.product h1 {
     line-height: 2em; } }
 @media (min-width: 768px) {
   #manufacturers_list li.col-md-4 {
-    width: 32%; }
+    width: 48%; }
 
   body.manufacturer h3.selection {
     font-size: 2.8em;
     line-height: 2.8em; } }
+@media (min-width: 992px) {
+  #manufacturers_list li.col-md-4 {
+    width: 32%; } }
 #manufacturers_list {
   display: inline; }
 
@@ -2024,9 +2049,9 @@ ul.product_list.grid > li.first-in-line {
       float: left;
       max-width: 50%;
       width: 100%; }
-      .cms-content .cms-bloc img {
-        width: 100%;
-        margin-top: 60px; } }
+    .cms-content img {
+      width: 48%;
+      margin-top: 60px; } }
 .bloc-text {
   padding-top: 40px;
   padding-bottom: 20px;

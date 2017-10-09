@@ -1,0 +1,35 @@
+@media (min-width: 200px) {
+  .cms-content {
+    display: inline-block; }
+    .cms-content .cms-bloc {
+      float: left;
+      max-width: 100%;
+      width: 100%; }
+      .cms-content .cms-bloc img {
+        width: 100%;
+        margin-top: 20px; } }
+@media (min-width: 768px) {
+  .cms-content {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative; }
+    .cms-content .cms-bloc {
+      float: left;
+      max-width: 50%;
+      width: 100%; }
+      .cms-content .cms-bloc img {
+        width: 100%;
+        margin-top: 60px; } }
+.bloc-text {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 20px; }
+  .bloc-text h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 5px !important; }
+
+/*# sourceMappingURL=cms.css.map */

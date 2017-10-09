@@ -27,6 +27,7 @@
 	<div id="languages-block-top" class="languages-block">
 		<ul id="first-languages" class="languages-block_ul toogle_content">
 			{foreach from=$languages key=k item=language name="languages"}
+{if $language.id_lang==1}
 				<li {if $language.iso_code == $lang_iso}class="selected"{/if}>
 				{if $language.iso_code != $lang_iso}
 					{assign var=indice_lang value=$language.id_lang}
@@ -41,6 +42,7 @@
 					</a>
 				{/if}
 				</li>
+{/if}
 			{/foreach}
 		</ul>
 	</div>

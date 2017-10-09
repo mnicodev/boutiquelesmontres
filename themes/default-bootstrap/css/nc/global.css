@@ -177,6 +177,11 @@ h3.selection {
   color: #000;
   border: 1px solid #cfcfcf; }
 
+.alert-info {
+  background-color: #000;
+  color: #fff;
+  border: none; }
+
 .shadow {
   position: fixed;
   width: 100%;

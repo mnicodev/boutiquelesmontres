@@ -105,7 +105,7 @@
 							{/if}
 					
 					{else}
-						<input type="text" class="form-control" id="id_contact" name="id_contact" value=""  />
+						<input type="text" class="form-control" id="id_contact" name="id_contact" value="{$smarty.request.id_contact}"  />
 						
 					
 						<p id="desc_contact0" class="desc_contact{if isset($smarty.request.id_contact)} unvisible{/if}">&nbsp;</p>
